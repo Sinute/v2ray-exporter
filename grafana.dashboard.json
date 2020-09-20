@@ -15,8 +15,8 @@
   "editable": true,
   "gnetId": null,
   "graphTooltip": 0,
-  "id": 11,
-  "iteration": 1600598932865,
+  "id": 1,
+  "iteration": 1600601778482,
   "links": [],
   "panels": [
     {
@@ -228,7 +228,7 @@
       },
       "yaxes": [
         {
-          "format": "decbytes",
+          "format": "Bps",
           "label": null,
           "logBase": 1,
           "max": null,
@@ -383,7 +383,7 @@
       "fill": 1,
       "fillGradient": 0,
       "gridPos": {
-        "h": 7,
+        "h": 8,
         "w": 24,
         "x": 0,
         "y": 24
@@ -427,7 +427,7 @@
           "instant": false,
           "interval": "",
           "intervalFactor": 1,
-          "legendFormat": "[Download] {{name}}",
+          "legendFormat": "[Download] {{name}}@{{host}}",
           "refId": "A"
         },
         {
@@ -436,7 +436,7 @@
           "instant": false,
           "interval": "",
           "intervalFactor": 1,
-          "legendFormat": "[Upload] {{name}}",
+          "legendFormat": "[Upload] {{name}}@{{host}}",
           "refId": "B"
         }
       ],
@@ -461,7 +461,7 @@
       },
       "yaxes": [
         {
-          "format": "decbytes",
+          "format": "Bps",
           "label": null,
           "logBase": 1,
           "max": null,
@@ -612,7 +612,7 @@
     ]
   },
   "time": {
-    "from": "now-6h",
+    "from": "now-30m",
     "to": "now"
   },
   "timepicker": {
@@ -632,5 +632,5 @@
   "timezone": "",
   "title": "V2ray",
   "uid": "-SWBNcdGk",
-  "version": 78
+  "version": 5
 }
